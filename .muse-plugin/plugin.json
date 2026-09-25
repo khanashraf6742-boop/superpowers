@@ -63,6 +63,26 @@
         "path": "skills/diagnosing-superpowers/SKILL.md"
       },
       {
+        "id": "dify-backend-code-review",
+        "path": "skills/dify-backend-code-review/SKILL.md"
+      },
+      {
+        "id": "dify-e2e-cucumber-playwright",
+        "path": "skills/dify-e2e-cucumber-playwright/SKILL.md"
+      },
+      {
+        "id": "dify-frontend-code-review",
+        "path": "skills/dify-frontend-code-review/SKILL.md"
+      },
+      {
+        "id": "dify-frontend-testing",
+        "path": "skills/dify-frontend-testing/SKILL.md"
+      },
+      {
+        "id": "dify-how-to-write-component",
+        "path": "skills/dify-how-to-write-component/SKILL.md"
+      },
+      {
         "id": "dispatching-parallel-agents",
         "path": "skills/dispatching-parallel-agents/SKILL.md"
       },
