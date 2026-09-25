@@ -365,16 +365,19 @@ Superpowers is built by [Jesse Vincent](https://blog.fsck.com) and the rest of t
 
 ### Incorporated Skills
 
-This fork also bundles 16 skills incorporated from other open-source projects. They sit in `skills/` next to the core skills, so every harness above discovers them the same way, and each name starts with its source project:
+This fork also bundles 303 skills incorporated from other open-source projects. They sit in `skills/` next to the core skills, so every harness above discovers them the same way, and each name starts with its source project:
 
 | Prefix | Source | Skills | Covers |
 |---|---|---:|---|
 | `autogpt-` | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 11 | PR lifecycle (open, review, address comments, polish to merge-ready, E2E test), agent-fleet orchestration with tmux, worktree and repo setup, frontend tests, Vercel's React/Next.js performance rules, and Anthropic's Playwright webapp-testing skill |
 | `dify-` | [langgenius/dify](https://github.com/langgenius/dify) | 5 | Dify's backend and frontend code-review checklists, frontend testing, component-authoring rules, and Cucumber + Playwright E2E scenarios |
+| `ruflo-` | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 287 | The ruflo/claude-flow toolkit: swarm and hive-mind orchestration, SPARC, AgentDB and ReasoningBank memory, GitHub automation, V3 implementation guides, and all ruflo plugin skills (ADR, DDD, cost tracking, browser automation, federation, security, testgen, workflows, and more), plus ruflo's agent-persona skills |
 
 The [incorporated skills catalog](docs/incorporated-skills/README.md) lists every skill with its upstream path, commit, and license, and records the few edits made while importing.
 
 **Skill listing budget:** Claude Code shows the model a listing of every skill's name and description, capped at 1% of the context window. With this many skills installed, the listing overflows and Claude Code drops descriptions from the skills you invoke least (names always stay), so those skills trigger less reliably. Run `/doctor` to see the listing's cost. To make room, raise `skillListingBudgetFraction` (for example `0.02`) or set `SLASH_COMMAND_TOOL_CHAR_BUDGET`, or set skills you don't need to `"name-only"` or `"off"` in `skillOverrides`. See [Claude Code's skills docs](https://code.claude.com/docs/en/skills).
+
+**Tool pre-approvals:** 148 `ruflo-` skills declare `allowed-tools`, which Claude Code runs without asking during the turn that invokes the skill. 115 of them include unrestricted `Bash`. The core skills declare none.
 
 ## Philosophy
 

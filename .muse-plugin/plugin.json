@@ -103,6 +103,1154 @@
         "path": "skills/requesting-code-review/SKILL.md"
       },
       {
+        "id": "ruflo",
+        "path": "skills/ruflo/SKILL.md"
+      },
+      {
+        "id": "ruflo-add-model-descriptions",
+        "path": "skills/ruflo-add-model-descriptions/SKILL.md"
+      },
+      {
+        "id": "ruflo-adr-create",
+        "path": "skills/ruflo-adr-create/SKILL.md"
+      },
+      {
+        "id": "ruflo-adr-index",
+        "path": "skills/ruflo-adr-index/SKILL.md"
+      },
+      {
+        "id": "ruflo-adr-reindex",
+        "path": "skills/ruflo-adr-reindex/SKILL.md"
+      },
+      {
+        "id": "ruflo-adr-review",
+        "path": "skills/ruflo-adr-review/SKILL.md"
+      },
+      {
+        "id": "ruflo-adr-verify",
+        "path": "skills/ruflo-adr-verify/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-adaptive-coordinator",
+        "path": "skills/ruflo-agent-adaptive-coordinator/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-agent",
+        "path": "skills/ruflo-agent-agent/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-agentic-payments",
+        "path": "skills/ruflo-agent-agentic-payments/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-analyze-code-quality",
+        "path": "skills/ruflo-agent-analyze-code-quality/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-app-store",
+        "path": "skills/ruflo-agent-app-store/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-arch-system-design",
+        "path": "skills/ruflo-agent-arch-system-design/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-architecture",
+        "path": "skills/ruflo-agent-architecture/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-authentication",
+        "path": "skills/ruflo-agent-authentication/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-automation-smart-agent",
+        "path": "skills/ruflo-agent-automation-smart-agent/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-base-template-generator",
+        "path": "skills/ruflo-agent-base-template-generator/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-benchmark-suite",
+        "path": "skills/ruflo-agent-benchmark-suite/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-byzantine-coordinator",
+        "path": "skills/ruflo-agent-byzantine-coordinator/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-challenges",
+        "path": "skills/ruflo-agent-challenges/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-code-analyzer",
+        "path": "skills/ruflo-agent-code-analyzer/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-code-goal-planner",
+        "path": "skills/ruflo-agent-code-goal-planner/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-code-review-swarm",
+        "path": "skills/ruflo-agent-code-review-swarm/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-coder",
+        "path": "skills/ruflo-agent-coder/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-collective-intelligence-coordinator",
+        "path": "skills/ruflo-agent-collective-intelligence-coordinator/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-consensus-coordinator",
+        "path": "skills/ruflo-agent-consensus-coordinator/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-coordination",
+        "path": "skills/ruflo-agent-coordination/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-coordinator-swarm-init",
+        "path": "skills/ruflo-agent-coordinator-swarm-init/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-crdt-synchronizer",
+        "path": "skills/ruflo-agent-crdt-synchronizer/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-data-ml-model",
+        "path": "skills/ruflo-agent-data-ml-model/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-dev-backend-api",
+        "path": "skills/ruflo-agent-dev-backend-api/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-docs-api-openapi",
+        "path": "skills/ruflo-agent-docs-api-openapi/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-github-modes",
+        "path": "skills/ruflo-agent-github-modes/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-github-pr-manager",
+        "path": "skills/ruflo-agent-github-pr-manager/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-goal-planner",
+        "path": "skills/ruflo-agent-goal-planner/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-gossip-coordinator",
+        "path": "skills/ruflo-agent-gossip-coordinator/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-hierarchical-coordinator",
+        "path": "skills/ruflo-agent-hierarchical-coordinator/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-implementer-sparc-coder",
+        "path": "skills/ruflo-agent-implementer-sparc-coder/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-issue-tracker",
+        "path": "skills/ruflo-agent-issue-tracker/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-load-balancer",
+        "path": "skills/ruflo-agent-load-balancer/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-matrix-optimizer",
+        "path": "skills/ruflo-agent-matrix-optimizer/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-memory-coordinator",
+        "path": "skills/ruflo-agent-memory-coordinator/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-mesh-coordinator",
+        "path": "skills/ruflo-agent-mesh-coordinator/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-migration-plan",
+        "path": "skills/ruflo-agent-migration-plan/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-multi-repo-swarm",
+        "path": "skills/ruflo-agent-multi-repo-swarm/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-neural-network",
+        "path": "skills/ruflo-agent-neural-network/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-ops-cicd-github",
+        "path": "skills/ruflo-agent-ops-cicd-github/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-orchestrator-task",
+        "path": "skills/ruflo-agent-orchestrator-task/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-pagerank-analyzer",
+        "path": "skills/ruflo-agent-pagerank-analyzer/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-payments",
+        "path": "skills/ruflo-agent-payments/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-performance-analyzer",
+        "path": "skills/ruflo-agent-performance-analyzer/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-performance-benchmarker",
+        "path": "skills/ruflo-agent-performance-benchmarker/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-performance-monitor",
+        "path": "skills/ruflo-agent-performance-monitor/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-performance-optimizer",
+        "path": "skills/ruflo-agent-performance-optimizer/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-planner",
+        "path": "skills/ruflo-agent-planner/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-pr-manager",
+        "path": "skills/ruflo-agent-pr-manager/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-production-validator",
+        "path": "skills/ruflo-agent-production-validator/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-project-board-sync",
+        "path": "skills/ruflo-agent-project-board-sync/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-pseudocode",
+        "path": "skills/ruflo-agent-pseudocode/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-queen-coordinator",
+        "path": "skills/ruflo-agent-queen-coordinator/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-quorum-manager",
+        "path": "skills/ruflo-agent-quorum-manager/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-raft-manager",
+        "path": "skills/ruflo-agent-raft-manager/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-refinement",
+        "path": "skills/ruflo-agent-refinement/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-release-manager",
+        "path": "skills/ruflo-agent-release-manager/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-release-swarm",
+        "path": "skills/ruflo-agent-release-swarm/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-repo-architect",
+        "path": "skills/ruflo-agent-repo-architect/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-researcher",
+        "path": "skills/ruflo-agent-researcher/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-resource-allocator",
+        "path": "skills/ruflo-agent-resource-allocator/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-reviewer",
+        "path": "skills/ruflo-agent-reviewer/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-safla-neural",
+        "path": "skills/ruflo-agent-safla-neural/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-sandbox",
+        "path": "skills/ruflo-agent-sandbox/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-scout-explorer",
+        "path": "skills/ruflo-agent-scout-explorer/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-security-manager",
+        "path": "skills/ruflo-agent-security-manager/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-sona-learning-optimizer",
+        "path": "skills/ruflo-agent-sona-learning-optimizer/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-sparc-coordinator",
+        "path": "skills/ruflo-agent-sparc-coordinator/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-spec-mobile-react-native",
+        "path": "skills/ruflo-agent-spec-mobile-react-native/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-specification",
+        "path": "skills/ruflo-agent-specification/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-swarm",
+        "path": "skills/ruflo-agent-swarm/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-swarm-issue",
+        "path": "skills/ruflo-agent-swarm-issue/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-swarm-memory-manager",
+        "path": "skills/ruflo-agent-swarm-memory-manager/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-swarm-pr",
+        "path": "skills/ruflo-agent-swarm-pr/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-sync-coordinator",
+        "path": "skills/ruflo-agent-sync-coordinator/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-tdd-london-swarm",
+        "path": "skills/ruflo-agent-tdd-london-swarm/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-test-long-runner",
+        "path": "skills/ruflo-agent-test-long-runner/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-tester",
+        "path": "skills/ruflo-agent-tester/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-topology-optimizer",
+        "path": "skills/ruflo-agent-topology-optimizer/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-trading-predictor",
+        "path": "skills/ruflo-agent-trading-predictor/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-user-tools",
+        "path": "skills/ruflo-agent-user-tools/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-v3-integration-architect",
+        "path": "skills/ruflo-agent-v3-integration-architect/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-v3-memory-specialist",
+        "path": "skills/ruflo-agent-v3-memory-specialist/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-v3-performance-engineer",
+        "path": "skills/ruflo-agent-v3-performance-engineer/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-v3-queen-coordinator",
+        "path": "skills/ruflo-agent-v3-queen-coordinator/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-v3-security-architect",
+        "path": "skills/ruflo-agent-v3-security-architect/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-worker-specialist",
+        "path": "skills/ruflo-agent-worker-specialist/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-workflow",
+        "path": "skills/ruflo-agent-workflow/SKILL.md"
+      },
+      {
+        "id": "ruflo-agent-workflow-automation",
+        "path": "skills/ruflo-agent-workflow-automation/SKILL.md"
+      },
+      {
+        "id": "ruflo-agentdb-advanced",
+        "path": "skills/ruflo-agentdb-advanced/SKILL.md"
+      },
+      {
+        "id": "ruflo-agentdb-learning",
+        "path": "skills/ruflo-agentdb-learning/SKILL.md"
+      },
+      {
+        "id": "ruflo-agentdb-memory-patterns",
+        "path": "skills/ruflo-agentdb-memory-patterns/SKILL.md"
+      },
+      {
+        "id": "ruflo-agentdb-optimization",
+        "path": "skills/ruflo-agentdb-optimization/SKILL.md"
+      },
+      {
+        "id": "ruflo-agentdb-query",
+        "path": "skills/ruflo-agentdb-query/SKILL.md"
+      },
+      {
+        "id": "ruflo-agentdb-vector-search",
+        "path": "skills/ruflo-agentdb-vector-search/SKILL.md"
+      },
+      {
+        "id": "ruflo-agentic-jujutsu",
+        "path": "skills/ruflo-agentic-jujutsu/SKILL.md"
+      },
+      {
+        "id": "ruflo-agntcy-status",
+        "path": "skills/ruflo-agntcy-status/SKILL.md"
+      },
+      {
+        "id": "ruflo-api-docs",
+        "path": "skills/ruflo-api-docs/SKILL.md"
+      },
+      {
+        "id": "ruflo-autopilot-loop",
+        "path": "skills/ruflo-autopilot-loop/SKILL.md"
+      },
+      {
+        "id": "ruflo-autopilot-predict",
+        "path": "skills/ruflo-autopilot-predict/SKILL.md"
+      },
+      {
+        "id": "ruflo-browser",
+        "path": "skills/ruflo-browser/SKILL.md"
+      },
+      {
+        "id": "ruflo-browser-auth-flow",
+        "path": "skills/ruflo-browser-auth-flow/SKILL.md"
+      },
+      {
+        "id": "ruflo-browser-extract",
+        "path": "skills/ruflo-browser-extract/SKILL.md"
+      },
+      {
+        "id": "ruflo-browser-form-fill",
+        "path": "skills/ruflo-browser-form-fill/SKILL.md"
+      },
+      {
+        "id": "ruflo-browser-intent",
+        "path": "skills/ruflo-browser-intent/SKILL.md"
+      },
+      {
+        "id": "ruflo-browser-login",
+        "path": "skills/ruflo-browser-login/SKILL.md"
+      },
+      {
+        "id": "ruflo-browser-record",
+        "path": "skills/ruflo-browser-record/SKILL.md"
+      },
+      {
+        "id": "ruflo-browser-replay",
+        "path": "skills/ruflo-browser-replay/SKILL.md"
+      },
+      {
+        "id": "ruflo-browser-scrape",
+        "path": "skills/ruflo-browser-scrape/SKILL.md"
+      },
+      {
+        "id": "ruflo-browser-screenshot-diff",
+        "path": "skills/ruflo-browser-screenshot-diff/SKILL.md"
+      },
+      {
+        "id": "ruflo-browser-test",
+        "path": "skills/ruflo-browser-test/SKILL.md"
+      },
+      {
+        "id": "ruflo-chat-format",
+        "path": "skills/ruflo-chat-format/SKILL.md"
+      },
+      {
+        "id": "ruflo-claims",
+        "path": "skills/ruflo-claims/SKILL.md"
+      },
+      {
+        "id": "ruflo-cognitive-pattern",
+        "path": "skills/ruflo-cognitive-pattern/SKILL.md"
+      },
+      {
+        "id": "ruflo-cost-anomaly",
+        "path": "skills/ruflo-cost-anomaly/SKILL.md"
+      },
+      {
+        "id": "ruflo-cost-benchmark",
+        "path": "skills/ruflo-cost-benchmark/SKILL.md"
+      },
+      {
+        "id": "ruflo-cost-booster-edit",
+        "path": "skills/ruflo-cost-booster-edit/SKILL.md"
+      },
+      {
+        "id": "ruflo-cost-booster-route",
+        "path": "skills/ruflo-cost-booster-route/SKILL.md"
+      },
+      {
+        "id": "ruflo-cost-budget-check",
+        "path": "skills/ruflo-cost-budget-check/SKILL.md"
+      },
+      {
+        "id": "ruflo-cost-burn",
+        "path": "skills/ruflo-cost-burn/SKILL.md"
+      },
+      {
+        "id": "ruflo-cost-compact-context",
+        "path": "skills/ruflo-cost-compact-context/SKILL.md"
+      },
+      {
+        "id": "ruflo-cost-conversation",
+        "path": "skills/ruflo-cost-conversation/SKILL.md"
+      },
+      {
+        "id": "ruflo-cost-counterfactual",
+        "path": "skills/ruflo-cost-counterfactual/SKILL.md"
+      },
+      {
+        "id": "ruflo-cost-diff",
+        "path": "skills/ruflo-cost-diff/SKILL.md"
+      },
+      {
+        "id": "ruflo-cost-export",
+        "path": "skills/ruflo-cost-export/SKILL.md"
+      },
+      {
+        "id": "ruflo-cost-federation",
+        "path": "skills/ruflo-cost-federation/SKILL.md"
+      },
+      {
+        "id": "ruflo-cost-health",
+        "path": "skills/ruflo-cost-health/SKILL.md"
+      },
+      {
+        "id": "ruflo-cost-optimize",
+        "path": "skills/ruflo-cost-optimize/SKILL.md"
+      },
+      {
+        "id": "ruflo-cost-projection",
+        "path": "skills/ruflo-cost-projection/SKILL.md"
+      },
+      {
+        "id": "ruflo-cost-report",
+        "path": "skills/ruflo-cost-report/SKILL.md"
+      },
+      {
+        "id": "ruflo-cost-session",
+        "path": "skills/ruflo-cost-session/SKILL.md"
+      },
+      {
+        "id": "ruflo-cost-summary",
+        "path": "skills/ruflo-cost-summary/SKILL.md"
+      },
+      {
+        "id": "ruflo-cost-track",
+        "path": "skills/ruflo-cost-track/SKILL.md"
+      },
+      {
+        "id": "ruflo-cost-trend",
+        "path": "skills/ruflo-cost-trend/SKILL.md"
+      },
+      {
+        "id": "ruflo-create-plugin",
+        "path": "skills/ruflo-create-plugin/SKILL.md"
+      },
+      {
+        "id": "ruflo-cron-schedule",
+        "path": "skills/ruflo-cron-schedule/SKILL.md"
+      },
+      {
+        "id": "ruflo-cross-host-federation",
+        "path": "skills/ruflo-cross-host-federation/SKILL.md"
+      },
+      {
+        "id": "ruflo-daa-agent",
+        "path": "skills/ruflo-daa-agent/SKILL.md"
+      },
+      {
+        "id": "ruflo-ddd-aggregate",
+        "path": "skills/ruflo-ddd-aggregate/SKILL.md"
+      },
+      {
+        "id": "ruflo-ddd-context",
+        "path": "skills/ruflo-ddd-context/SKILL.md"
+      },
+      {
+        "id": "ruflo-ddd-validate",
+        "path": "skills/ruflo-ddd-validate/SKILL.md"
+      },
+      {
+        "id": "ruflo-deep-research",
+        "path": "skills/ruflo-deep-research/SKILL.md"
+      },
+      {
+        "id": "ruflo-deepseek-chat",
+        "path": "skills/ruflo-deepseek-chat/SKILL.md"
+      },
+      {
+        "id": "ruflo-deepseek-reason",
+        "path": "skills/ruflo-deepseek-reason/SKILL.md"
+      },
+      {
+        "id": "ruflo-dependency-check",
+        "path": "skills/ruflo-dependency-check/SKILL.md"
+      },
+      {
+        "id": "ruflo-diff-analyze",
+        "path": "skills/ruflo-diff-analyze/SKILL.md"
+      },
+      {
+        "id": "ruflo-discover-plugins",
+        "path": "skills/ruflo-discover-plugins/SKILL.md"
+      },
+      {
+        "id": "ruflo-doc-gen",
+        "path": "skills/ruflo-doc-gen/SKILL.md"
+      },
+      {
+        "id": "ruflo-doctor",
+        "path": "skills/ruflo-doctor/SKILL.md"
+      },
+      {
+        "id": "ruflo-dossier-collect",
+        "path": "skills/ruflo-dossier-collect/SKILL.md"
+      },
+      {
+        "id": "ruflo-dual-collect",
+        "path": "skills/ruflo-dual-collect/SKILL.md"
+      },
+      {
+        "id": "ruflo-dual-coordinate",
+        "path": "skills/ruflo-dual-coordinate/SKILL.md"
+      },
+      {
+        "id": "ruflo-dual-spawn",
+        "path": "skills/ruflo-dual-spawn/SKILL.md"
+      },
+      {
+        "id": "ruflo-embeddings",
+        "path": "skills/ruflo-embeddings/SKILL.md"
+      },
+      {
+        "id": "ruflo-federation-audit",
+        "path": "skills/ruflo-federation-audit/SKILL.md"
+      },
+      {
+        "id": "ruflo-federation-init",
+        "path": "skills/ruflo-federation-init/SKILL.md"
+      },
+      {
+        "id": "ruflo-federation-status",
+        "path": "skills/ruflo-federation-status/SKILL.md"
+      },
+      {
+        "id": "ruflo-flow-nexus-neural",
+        "path": "skills/ruflo-flow-nexus-neural/SKILL.md"
+      },
+      {
+        "id": "ruflo-flow-nexus-platform",
+        "path": "skills/ruflo-flow-nexus-platform/SKILL.md"
+      },
+      {
+        "id": "ruflo-flow-nexus-swarm",
+        "path": "skills/ruflo-flow-nexus-swarm/SKILL.md"
+      },
+      {
+        "id": "ruflo-gaia-architecture-comparison",
+        "path": "skills/ruflo-gaia-architecture-comparison/SKILL.md"
+      },
+      {
+        "id": "ruflo-gaia-debugging",
+        "path": "skills/ruflo-gaia-debugging/SKILL.md"
+      },
+      {
+        "id": "ruflo-gaia-submission",
+        "path": "skills/ruflo-gaia-submission/SKILL.md"
+      },
+      {
+        "id": "ruflo-git-workflow",
+        "path": "skills/ruflo-git-workflow/SKILL.md"
+      },
+      {
+        "id": "ruflo-github-automation",
+        "path": "skills/ruflo-github-automation/SKILL.md"
+      },
+      {
+        "id": "ruflo-github-code-review",
+        "path": "skills/ruflo-github-code-review/SKILL.md"
+      },
+      {
+        "id": "ruflo-github-multi-repo",
+        "path": "skills/ruflo-github-multi-repo/SKILL.md"
+      },
+      {
+        "id": "ruflo-github-project-management",
+        "path": "skills/ruflo-github-project-management/SKILL.md"
+      },
+      {
+        "id": "ruflo-github-release-management",
+        "path": "skills/ruflo-github-release-management/SKILL.md"
+      },
+      {
+        "id": "ruflo-github-workflow-automation",
+        "path": "skills/ruflo-github-workflow-automation/SKILL.md"
+      },
+      {
+        "id": "ruflo-goal-plan",
+        "path": "skills/ruflo-goal-plan/SKILL.md"
+      },
+      {
+        "id": "ruflo-harness-bench",
+        "path": "skills/ruflo-harness-bench/SKILL.md"
+      },
+      {
+        "id": "ruflo-harness-drift-from-history",
+        "path": "skills/ruflo-harness-drift-from-history/SKILL.md"
+      },
+      {
+        "id": "ruflo-harness-evolve",
+        "path": "skills/ruflo-harness-evolve/SKILL.md"
+      },
+      {
+        "id": "ruflo-harness-genome",
+        "path": "skills/ruflo-harness-genome/SKILL.md"
+      },
+      {
+        "id": "ruflo-harness-gepa",
+        "path": "skills/ruflo-harness-gepa/SKILL.md"
+      },
+      {
+        "id": "ruflo-harness-learn",
+        "path": "skills/ruflo-harness-learn/SKILL.md"
+      },
+      {
+        "id": "ruflo-harness-mcp-scan",
+        "path": "skills/ruflo-harness-mcp-scan/SKILL.md"
+      },
+      {
+        "id": "ruflo-harness-mint",
+        "path": "skills/ruflo-harness-mint/SKILL.md"
+      },
+      {
+        "id": "ruflo-harness-oia-audit",
+        "path": "skills/ruflo-harness-oia-audit/SKILL.md"
+      },
+      {
+        "id": "ruflo-harness-score",
+        "path": "skills/ruflo-harness-score/SKILL.md"
+      },
+      {
+        "id": "ruflo-harness-security-bench",
+        "path": "skills/ruflo-harness-security-bench/SKILL.md"
+      },
+      {
+        "id": "ruflo-harness-similarity",
+        "path": "skills/ruflo-harness-similarity/SKILL.md"
+      },
+      {
+        "id": "ruflo-harness-threat-model",
+        "path": "skills/ruflo-harness-threat-model/SKILL.md"
+      },
+      {
+        "id": "ruflo-hive-mind",
+        "path": "skills/ruflo-hive-mind/SKILL.md"
+      },
+      {
+        "id": "ruflo-hive-mind-advanced",
+        "path": "skills/ruflo-hive-mind-advanced/SKILL.md"
+      },
+      {
+        "id": "ruflo-hooks-automation",
+        "path": "skills/ruflo-hooks-automation/SKILL.md"
+      },
+      {
+        "id": "ruflo-horizon-track",
+        "path": "skills/ruflo-horizon-track/SKILL.md"
+      },
+      {
+        "id": "ruflo-init-project",
+        "path": "skills/ruflo-init-project/SKILL.md"
+      },
+      {
+        "id": "ruflo-intelligence-route",
+        "path": "skills/ruflo-intelligence-route/SKILL.md"
+      },
+      {
+        "id": "ruflo-intelligence-transfer",
+        "path": "skills/ruflo-intelligence-transfer/SKILL.md"
+      },
+      {
+        "id": "ruflo-iot-anomalies",
+        "path": "skills/ruflo-iot-anomalies/SKILL.md"
+      },
+      {
+        "id": "ruflo-iot-firmware",
+        "path": "skills/ruflo-iot-firmware/SKILL.md"
+      },
+      {
+        "id": "ruflo-iot-fleet",
+        "path": "skills/ruflo-iot-fleet/SKILL.md"
+      },
+      {
+        "id": "ruflo-iot-register",
+        "path": "skills/ruflo-iot-register/SKILL.md"
+      },
+      {
+        "id": "ruflo-iot-witness-verify",
+        "path": "skills/ruflo-iot-witness-verify/SKILL.md"
+      },
+      {
+        "id": "ruflo-kg-extract",
+        "path": "skills/ruflo-kg-extract/SKILL.md"
+      },
+      {
+        "id": "ruflo-kg-traverse",
+        "path": "skills/ruflo-kg-traverse/SKILL.md"
+      },
+      {
+        "id": "ruflo-llm-config",
+        "path": "skills/ruflo-llm-config/SKILL.md"
+      },
+      {
+        "id": "ruflo-loop-worker",
+        "path": "skills/ruflo-loop-worker/SKILL.md"
+      },
+      {
+        "id": "ruflo-managed-agent",
+        "path": "skills/ruflo-managed-agent/SKILL.md"
+      },
+      {
+        "id": "ruflo-market-ingest",
+        "path": "skills/ruflo-market-ingest/SKILL.md"
+      },
+      {
+        "id": "ruflo-market-pattern",
+        "path": "skills/ruflo-market-pattern/SKILL.md"
+      },
+      {
+        "id": "ruflo-memory-bridge",
+        "path": "skills/ruflo-memory-bridge/SKILL.md"
+      },
+      {
+        "id": "ruflo-memory-management",
+        "path": "skills/ruflo-memory-management/SKILL.md"
+      },
+      {
+        "id": "ruflo-memory-search",
+        "path": "skills/ruflo-memory-search/SKILL.md"
+      },
+      {
+        "id": "ruflo-migrate-create",
+        "path": "skills/ruflo-migrate-create/SKILL.md"
+      },
+      {
+        "id": "ruflo-migrate-validate",
+        "path": "skills/ruflo-migrate-validate/SKILL.md"
+      },
+      {
+        "id": "ruflo-monitor-stream",
+        "path": "skills/ruflo-monitor-stream/SKILL.md"
+      },
+      {
+        "id": "ruflo-music-connect",
+        "path": "skills/ruflo-music-connect/SKILL.md"
+      },
+      {
+        "id": "ruflo-music-generate",
+        "path": "skills/ruflo-music-generate/SKILL.md"
+      },
+      {
+        "id": "ruflo-music-get",
+        "path": "skills/ruflo-music-get/SKILL.md"
+      },
+      {
+        "id": "ruflo-music-list",
+        "path": "skills/ruflo-music-list/SKILL.md"
+      },
+      {
+        "id": "ruflo-music-master",
+        "path": "skills/ruflo-music-master/SKILL.md"
+      },
+      {
+        "id": "ruflo-music-midi",
+        "path": "skills/ruflo-music-midi/SKILL.md"
+      },
+      {
+        "id": "ruflo-music-stems",
+        "path": "skills/ruflo-music-stems/SKILL.md"
+      },
+      {
+        "id": "ruflo-nested-subagents",
+        "path": "skills/ruflo-nested-subagents/SKILL.md"
+      },
+      {
+        "id": "ruflo-neural-train",
+        "path": "skills/ruflo-neural-train/SKILL.md"
+      },
+      {
+        "id": "ruflo-neural-training",
+        "path": "skills/ruflo-neural-training/SKILL.md"
+      },
+      {
+        "id": "ruflo-observe-metrics",
+        "path": "skills/ruflo-observe-metrics/SKILL.md"
+      },
+      {
+        "id": "ruflo-observe-trace",
+        "path": "skills/ruflo-observe-trace/SKILL.md"
+      },
+      {
+        "id": "ruflo-open-federation",
+        "path": "skills/ruflo-open-federation/SKILL.md"
+      },
+      {
+        "id": "ruflo-pair-programming",
+        "path": "skills/ruflo-pair-programming/SKILL.md"
+      },
+      {
+        "id": "ruflo-performance-analysis",
+        "path": "skills/ruflo-performance-analysis/SKILL.md"
+      },
+      {
+        "id": "ruflo-pii-detect",
+        "path": "skills/ruflo-pii-detect/SKILL.md"
+      },
+      {
+        "id": "ruflo-pod-sales",
+        "path": "skills/ruflo-pod-sales/SKILL.md"
+      },
+      {
+        "id": "ruflo-reasoningbank-agentdb",
+        "path": "skills/ruflo-reasoningbank-agentdb/SKILL.md"
+      },
+      {
+        "id": "ruflo-reasoningbank-intelligence",
+        "path": "skills/ruflo-reasoningbank-intelligence/SKILL.md"
+      },
+      {
+        "id": "ruflo-research-synthesize",
+        "path": "skills/ruflo-research-synthesize/SKILL.md"
+      },
+      {
+        "id": "ruflo-rvf-manage",
+        "path": "skills/ruflo-rvf-manage/SKILL.md"
+      },
+      {
+        "id": "ruflo-safety-scan",
+        "path": "skills/ruflo-safety-scan/SKILL.md"
+      },
+      {
+        "id": "ruflo-security-audit",
+        "path": "skills/ruflo-security-audit/SKILL.md"
+      },
+      {
+        "id": "ruflo-security-scan",
+        "path": "skills/ruflo-security-scan/SKILL.md"
+      },
+      {
+        "id": "ruflo-session-persist",
+        "path": "skills/ruflo-session-persist/SKILL.md"
+      },
+      {
+        "id": "ruflo-skill-builder",
+        "path": "skills/ruflo-skill-builder/SKILL.md"
+      },
+      {
+        "id": "ruflo-sparc-implement",
+        "path": "skills/ruflo-sparc-implement/SKILL.md"
+      },
+      {
+        "id": "ruflo-sparc-methodology",
+        "path": "skills/ruflo-sparc-methodology/SKILL.md"
+      },
+      {
+        "id": "ruflo-sparc-refine",
+        "path": "skills/ruflo-sparc-refine/SKILL.md"
+      },
+      {
+        "id": "ruflo-sparc-spec",
+        "path": "skills/ruflo-sparc-spec/SKILL.md"
+      },
+      {
+        "id": "ruflo-status",
+        "path": "skills/ruflo-status/SKILL.md"
+      },
+      {
+        "id": "ruflo-stream-chain",
+        "path": "skills/ruflo-stream-chain/SKILL.md"
+      },
+      {
+        "id": "ruflo-swarm-advanced",
+        "path": "skills/ruflo-swarm-advanced/SKILL.md"
+      },
+      {
+        "id": "ruflo-swarm-init",
+        "path": "skills/ruflo-swarm-init/SKILL.md"
+      },
+      {
+        "id": "ruflo-swarm-orchestration",
+        "path": "skills/ruflo-swarm-orchestration/SKILL.md"
+      },
+      {
+        "id": "ruflo-tdd-repair",
+        "path": "skills/ruflo-tdd-repair/SKILL.md"
+      },
+      {
+        "id": "ruflo-tdd-workflow",
+        "path": "skills/ruflo-tdd-workflow/SKILL.md"
+      },
+      {
+        "id": "ruflo-test-gaps",
+        "path": "skills/ruflo-test-gaps/SKILL.md"
+      },
+      {
+        "id": "ruflo-trader-backtest",
+        "path": "skills/ruflo-trader-backtest/SKILL.md"
+      },
+      {
+        "id": "ruflo-trader-cloud-backtest",
+        "path": "skills/ruflo-trader-cloud-backtest/SKILL.md"
+      },
+      {
+        "id": "ruflo-trader-explain",
+        "path": "skills/ruflo-trader-explain/SKILL.md"
+      },
+      {
+        "id": "ruflo-trader-portfolio",
+        "path": "skills/ruflo-trader-portfolio/SKILL.md"
+      },
+      {
+        "id": "ruflo-trader-portfolio-cg",
+        "path": "skills/ruflo-trader-portfolio-cg/SKILL.md"
+      },
+      {
+        "id": "ruflo-trader-regime",
+        "path": "skills/ruflo-trader-regime/SKILL.md"
+      },
+      {
+        "id": "ruflo-trader-risk",
+        "path": "skills/ruflo-trader-risk/SKILL.md"
+      },
+      {
+        "id": "ruflo-trader-signal",
+        "path": "skills/ruflo-trader-signal/SKILL.md"
+      },
+      {
+        "id": "ruflo-trader-train",
+        "path": "skills/ruflo-trader-train/SKILL.md"
+      },
+      {
+        "id": "ruflo-v3-cli-modernization",
+        "path": "skills/ruflo-v3-cli-modernization/SKILL.md"
+      },
+      {
+        "id": "ruflo-v3-core-implementation",
+        "path": "skills/ruflo-v3-core-implementation/SKILL.md"
+      },
+      {
+        "id": "ruflo-v3-ddd-architecture",
+        "path": "skills/ruflo-v3-ddd-architecture/SKILL.md"
+      },
+      {
+        "id": "ruflo-v3-integration-deep",
+        "path": "skills/ruflo-v3-integration-deep/SKILL.md"
+      },
+      {
+        "id": "ruflo-v3-mcp-optimization",
+        "path": "skills/ruflo-v3-mcp-optimization/SKILL.md"
+      },
+      {
+        "id": "ruflo-v3-memory-unification",
+        "path": "skills/ruflo-v3-memory-unification/SKILL.md"
+      },
+      {
+        "id": "ruflo-v3-performance-optimization",
+        "path": "skills/ruflo-v3-performance-optimization/SKILL.md"
+      },
+      {
+        "id": "ruflo-v3-security-overhaul",
+        "path": "skills/ruflo-v3-security-overhaul/SKILL.md"
+      },
+      {
+        "id": "ruflo-v3-swarm-coordination",
+        "path": "skills/ruflo-v3-swarm-coordination/SKILL.md"
+      },
+      {
+        "id": "ruflo-validate-plugin",
+        "path": "skills/ruflo-validate-plugin/SKILL.md"
+      },
+      {
+        "id": "ruflo-vector-cluster",
+        "path": "skills/ruflo-vector-cluster/SKILL.md"
+      },
+      {
+        "id": "ruflo-vector-embed",
+        "path": "skills/ruflo-vector-embed/SKILL.md"
+      },
+      {
+        "id": "ruflo-vector-hyperbolic",
+        "path": "skills/ruflo-vector-hyperbolic/SKILL.md"
+      },
+      {
+        "id": "ruflo-vector-search",
+        "path": "skills/ruflo-vector-search/SKILL.md"
+      },
+      {
+        "id": "ruflo-vector-setup",
+        "path": "skills/ruflo-vector-setup/SKILL.md"
+      },
+      {
+        "id": "ruflo-verification-quality",
+        "path": "skills/ruflo-verification-quality/SKILL.md"
+      },
+      {
+        "id": "ruflo-wasm-agent",
+        "path": "skills/ruflo-wasm-agent/SKILL.md"
+      },
+      {
+        "id": "ruflo-wasm-gallery",
+        "path": "skills/ruflo-wasm-gallery/SKILL.md"
+      },
+      {
+        "id": "ruflo-witness",
+        "path": "skills/ruflo-witness/SKILL.md"
+      },
+      {
+        "id": "ruflo-worker-benchmarks",
+        "path": "skills/ruflo-worker-benchmarks/SKILL.md"
+      },
+      {
+        "id": "ruflo-worker-integration",
+        "path": "skills/ruflo-worker-integration/SKILL.md"
+      },
+      {
+        "id": "ruflo-workflow-automation",
+        "path": "skills/ruflo-workflow-automation/SKILL.md"
+      },
+      {
+        "id": "ruflo-workflow-create",
+        "path": "skills/ruflo-workflow-create/SKILL.md"
+      },
+      {
+        "id": "ruflo-workflow-run",
+        "path": "skills/ruflo-workflow-run/SKILL.md"
+      },
+      {
         "id": "subagent-driven-development",
         "path": "skills/subagent-driven-development/SKILL.md"
       },
