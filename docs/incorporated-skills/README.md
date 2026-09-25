@@ -1,6 +1,6 @@
 # Incorporated skills
 
-Besides its core skills, this fork of Superpowers bundles 316 skills incorporated from other open-source projects. They live in `skills/` exactly like the core skills, so Claude Code, Codex, Cursor, Gemini, OpenCode, Pi, Kimi, Hermes, Muse and the other supported harnesses discover them the same way.
+Besides its core skills, this fork of Superpowers bundles 329 skills incorporated from other open-source projects. They live in `skills/` exactly like the core skills, so Claude Code, Codex, Cursor, Gemini, OpenCode, Pi, Kimi, Hermes, Muse and the other supported harnesses discover them the same way.
 
 ## Conventions
 
@@ -18,6 +18,7 @@ Besides its core skills, this fork of Superpowers bundles 316 skills incorporate
 | [langgenius/dify](https://github.com/langgenius/dify) | `dify-` | [khanashraf6742-boop/dify@e43ea09](https://github.com/khanashraf6742-boop/dify/tree/e43ea0986e9b4dbd1bba0dc917532a179e5604fe) | 5 | [dify-LICENSE](licenses/dify-LICENSE) |
 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | `ruflo-` | [khanashraf6742-boop/ruflo@025842b](https://github.com/khanashraf6742-boop/ruflo/tree/025842bb0f860a908b286846c701e156c7f3f739) | 287 | [ruflo-LICENSE](licenses/ruflo-LICENSE) |
 | [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) | `anythingllm-` | [khanashraf6742-boop/anything-llm@ad97bc8](https://github.com/khanashraf6742-boop/anything-llm/tree/ad97bc8dfcb6919f34f7d6d0c722efdda64d66d9) | 13 | [anything-llm-LICENSE](licenses/anything-llm-LICENSE) |
+| [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | `copilotkit-` | [khanashraf6742-boop/CopilotKit@ad5d77d](https://github.com/khanashraf6742-boop/CopilotKit/tree/ad5d77da47e34904dc715a045168bd551367d5a0) | 13 | [CopilotKit-LICENSE](licenses/CopilotKit-LICENSE) |
 
 ## AutoGPT
 
@@ -371,7 +372,7 @@ The ruflo/claude-flow toolkit: swarm and hive-mind orchestration, SPARC, AgentDB
 
 ## anything-llm
 
-AnythingLLM's built-in agent skills (document memory and summarising, web search and scraping, charts, image generation, SQL, file-system access, document creation, scheduled jobs, Gmail, Google Calendar, Outlook) adapted as instructions for a coding agent's own tools.
+AnythingLLM's built-in agent skills (document memory and summarizing, web search and scraping, charts, image generation, SQL, file-system access, document creation, scheduled jobs, Gmail, Google Calendar, Outlook) adapted as instructions for a coding agent's own tools.
 
 **License:** MIT, Copyright (c) Mintplex Labs Inc.
 
@@ -394,3 +395,28 @@ AnythingLLM's built-in agent skills (document memory and summarising, web search
 | `anythingllm-sql-agent` | [`server/utils/agents/aibitat/plugins/sql-agent`](https://github.com/khanashraf6742-boop/anything-llm/tree/ad97bc8dfcb6919f34f7d6d0c722efdda64d66d9/server/utils/agents/aibitat/plugins/sql-agent) | Use when a question has to be answered from data in a SQL database, such as PostgreSQL, MySQL, or SQL Server |
 | `anythingllm-web-browsing` | [`server/utils/agents/aibitat/plugins/web-browsing.js`](https://github.com/khanashraf6742-boop/anything-llm/blob/ad97bc8dfcb6919f34f7d6d0c722efdda64d66d9/server/utils/agents/aibitat/plugins/web-browsing.js) | Use when a question needs current or outside information, such as news, recent releases or changes, prices, weather, or live data, that isn't… |
 | `anythingllm-web-scraping` | [`server/utils/agents/aibitat/plugins/web-scraping.js`](https://github.com/khanashraf6742-boop/anything-llm/blob/ad97bc8dfcb6919f34f7d6d0c722efdda64d66d9/server/utils/agents/aibitat/plugins/web-scraping.js) | Use when given a specific web address to read, or asked what a particular page or link says |
+
+## CopilotKit
+
+Building with CopilotKit (core, CLI, Channels, Slack setup), the Inspector and Intelligence docs workflows, the showcase reskin workflow, and mcp-use's MCP server / ChatGPT app builder skills.
+
+**License:** MIT, Copyright (c) Atai Barkai. The three mcp-use skills under `examples/showcases/open-mcp-client/apps/mcp-use-server/.agent/skills/` carry their own Apache-2.0 `LICENSE.txt`, which is kept.
+
+- Sources: `skills/*` (9), `examples/showcases/open-mcp-client/apps/mcp-use-server/.agent/skills/*` (3), and `examples/showcases/reskinnable-demo/.claude/skills/reskin`.
+- `copilotkit`, `copilotkit-channels` and `copilotkit-cli` already carried the project name and keep it. References to sibling skills (for example `inspector-docs`, `skills/intelligence-docs/SKILL.md`, `setup-slack-channel`) point at the new names.
+
+| Skill | Upstream path | Description |
+|---|---|---|
+| `copilotkit` | [`skills/copilotkit`](https://github.com/khanashraf6742-boop/CopilotKit/tree/ad5d77da47e34904dc715a045168bd551367d5a0/skills/copilotkit) | Use for any CopilotKit question — adding it to an app, chat UI, frontend or server tools, generative UI, shared state, human-in-the-loop, agent… |
+| `copilotkit-channels` | [`skills/copilotkit-channels`](https://github.com/khanashraf6742-boop/CopilotKit/tree/ad5d77da47e34904dc715a045168bd551367d5a0/skills/copilotkit-channels) | Use for the CODE half of a managed Intelligence Channel with Slack or Microsoft Teams: customising the Channel a CLI-scaffolded project already… |
+| `copilotkit-channels-setup` | [`skills/channels-setup`](https://github.com/khanashraf6742-boop/CopilotKit/tree/ad5d77da47e34904dc715a045168bd551367d5a0/skills/channels-setup) | Use when a developer wants to build their first CopilotKit Channels agent and get it answering in Slack or Microsoft Teams: "set up a channel"… |
+| `copilotkit-chatgpt-app-builder` | [`examples/showcases/open-mcp-client/apps/mcp-use-server/.agent/skills/chatgpt-app-builder`](https://github.com/khanashraf6742-boop/CopilotKit/tree/ad5d77da47e34904dc715a045168bd551367d5a0/examples/showcases/open-mcp-client/apps/mcp-use-server/.agent/skills/chatgpt-app-builder) | DEPRECATED: This skill has been replaced by `mcp-app-builder`. Check if `mcp-app-builder` is available in the skills folder. If not, install it: `npx… |
+| `copilotkit-cli` | [`skills/copilotkit-cli`](https://github.com/khanashraf6742-boop/CopilotKit/tree/ad5d77da47e34904dc715a045168bd551367d5a0/skills/copilotkit-cli) | Use for the CopilotKit CLI — `npx copilotkit@latest`. Covers proving a project's wiring with `verify` before debugging anything by hand, scaffolding… |
+| `copilotkit-inspector-docs` | [`skills/inspector-docs`](https://github.com/khanashraf6742-boop/CopilotKit/tree/ad5d77da47e34904dc715a045168bd551367d5a0/skills/inspector-docs) | Keeps CopilotKit docs pointing at shipped Inspector panes so readers open the overlay. Use when adding, changing, renaming, or removing an Inspector… |
+| `copilotkit-inspector-workbench` | [`skills/inspector-workbench`](https://github.com/khanashraf6742-boop/CopilotKit/tree/ad5d77da47e34904dc715a045168bd551367d5a0/skills/inspector-workbench) | Runs Inspector UI work on the standalone Threads state lab so the agent can see the overlay. Use when a CopilotKit employee asks an agent to fix… |
+| `copilotkit-intelligence-docs` | [`skills/intelligence-docs`](https://github.com/khanashraf6742-boop/CopilotKit/tree/ad5d77da47e34904dc715a045168bd551367d5a0/skills/intelligence-docs) | Keeps the CopilotKit Intelligence landing page in sync when a new Intelligence feature ships or when Intelligence docs are added, renamed, or… |
+| `copilotkit-intelligence-vocabulary` | [`skills/intelligence-vocabulary`](https://github.com/khanashraf6742-boop/CopilotKit/tree/ad5d77da47e34904dc715a045168bd551367d5a0/skills/intelligence-vocabulary) | Locks customer-facing CopilotKit Intelligence docs to one approved name per concept. Use when writing, editing, or reviewing Intelligence docs, nav… |
+| `copilotkit-mcp-apps-builder` | [`examples/showcases/open-mcp-client/apps/mcp-use-server/.agent/skills/mcp-apps-builder`](https://github.com/khanashraf6742-boop/CopilotKit/tree/ad5d77da47e34904dc715a045168bd551367d5a0/examples/showcases/open-mcp-client/apps/mcp-use-server/.agent/skills/mcp-apps-builder) | **MANDATORY for ALL MCP server work** - mcp-use framework best practices and patterns. **READ THIS FIRST** before any MCP server work, including: -… |
+| `copilotkit-mcp-builder` | [`examples/showcases/open-mcp-client/apps/mcp-use-server/.agent/skills/mcp-builder`](https://github.com/khanashraf6742-boop/CopilotKit/tree/ad5d77da47e34904dc715a045168bd551367d5a0/examples/showcases/open-mcp-client/apps/mcp-use-server/.agent/skills/mcp-builder) | DEPRECATED: This skill has been replaced by `mcp-app-builder`. Check if `mcp-app-builder` is available in the skills folder. If not, install it: `npx… |
+| `copilotkit-reskin` | [`examples/showcases/reskinnable-demo/.claude/skills/reskin`](https://github.com/khanashraf6742-boop/CopilotKit/tree/ad5d77da47e34904dc715a045168bd551367d5a0/examples/showcases/reskinnable-demo/.claude/skills/reskin) | Author a NEW skin for the reskinnable-demo app. A skin is a self-contained domain plugin under src/skins/<id>/ that implements the frozen `Skin`… |
+| `copilotkit-setup-slack-channel` | [`skills/setup-slack-channel`](https://github.com/khanashraf6742-boop/CopilotKit/tree/ad5d77da47e34904dc715a045168bd551367d5a0/skills/setup-slack-channel) | Use for the PROVIDER half of getting a locally running CopilotKit Channels agent to answer in Slack, when no Slack app exists yet — setting up a… |

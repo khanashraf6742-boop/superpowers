@@ -365,14 +365,15 @@ Superpowers is built by [Jesse Vincent](https://blog.fsck.com) and the rest of t
 
 ### Incorporated Skills
 
-This fork also bundles 316 skills incorporated from other open-source projects. They sit in `skills/` next to the core skills, so every harness above discovers them the same way, and each name starts with its source project:
+This fork also bundles 329 skills incorporated from other open-source projects. They sit in `skills/` next to the core skills, so every harness above discovers them the same way, and each name starts with its source project:
 
 | Prefix | Source | Skills | Covers |
 |---|---|---:|---|
 | `autogpt-` | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 11 | PR lifecycle (open, review, address comments, polish to merge-ready, E2E test), agent-fleet orchestration with tmux, worktree and repo setup, frontend tests, Vercel's React/Next.js performance rules, and Anthropic's Playwright webapp-testing skill |
 | `dify-` | [langgenius/dify](https://github.com/langgenius/dify) | 5 | Dify's backend and frontend code-review checklists, frontend testing, component-authoring rules, and Cucumber + Playwright E2E scenarios |
 | `ruflo-` | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 287 | The ruflo/claude-flow toolkit: swarm and hive-mind orchestration, SPARC, AgentDB and ReasoningBank memory, GitHub automation, V3 implementation guides, and all ruflo plugin skills (ADR, DDD, cost tracking, browser automation, federation, security, testgen, workflows, and more), plus ruflo's agent-persona skills |
-| `anythingllm-` | [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) | 13 | AnythingLLM's built-in agent skills (document memory and summarising, web search and scraping, charts, image generation, SQL, file-system access, document creation, scheduled jobs, Gmail, Google Calendar, Outlook) adapted as instructions for a coding agent's own tools |
+| `anythingllm-` | [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) | 13 | AnythingLLM's built-in agent skills (document memory and summarizing, web search and scraping, charts, image generation, SQL, file-system access, document creation, scheduled jobs, Gmail, Google Calendar, Outlook) adapted as instructions for a coding agent's own tools |
+| `copilotkit-` | [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | 13 | Building with CopilotKit (core, CLI, Channels, Slack setup), the Inspector and Intelligence docs workflows, the showcase reskin workflow, and mcp-use's MCP server / ChatGPT app builder skills |
 
 The [incorporated skills catalog](docs/incorporated-skills/README.md) lists every skill with its upstream path, commit, and license, and records the few edits made while importing.
 

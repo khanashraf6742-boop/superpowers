@@ -111,6 +111,58 @@
         "path": "skills/brainstorming/SKILL.md"
       },
       {
+        "id": "copilotkit",
+        "path": "skills/copilotkit/SKILL.md"
+      },
+      {
+        "id": "copilotkit-channels",
+        "path": "skills/copilotkit-channels/SKILL.md"
+      },
+      {
+        "id": "copilotkit-channels-setup",
+        "path": "skills/copilotkit-channels-setup/SKILL.md"
+      },
+      {
+        "id": "copilotkit-chatgpt-app-builder",
+        "path": "skills/copilotkit-chatgpt-app-builder/SKILL.md"
+      },
+      {
+        "id": "copilotkit-cli",
+        "path": "skills/copilotkit-cli/SKILL.md"
+      },
+      {
+        "id": "copilotkit-inspector-docs",
+        "path": "skills/copilotkit-inspector-docs/SKILL.md"
+      },
+      {
+        "id": "copilotkit-inspector-workbench",
+        "path": "skills/copilotkit-inspector-workbench/SKILL.md"
+      },
+      {
+        "id": "copilotkit-intelligence-docs",
+        "path": "skills/copilotkit-intelligence-docs/SKILL.md"
+      },
+      {
+        "id": "copilotkit-intelligence-vocabulary",
+        "path": "skills/copilotkit-intelligence-vocabulary/SKILL.md"
+      },
+      {
+        "id": "copilotkit-mcp-apps-builder",
+        "path": "skills/copilotkit-mcp-apps-builder/SKILL.md"
+      },
+      {
+        "id": "copilotkit-mcp-builder",
+        "path": "skills/copilotkit-mcp-builder/SKILL.md"
+      },
+      {
+        "id": "copilotkit-reskin",
+        "path": "skills/copilotkit-reskin/SKILL.md"
+      },
+      {
+        "id": "copilotkit-setup-slack-channel",
+        "path": "skills/copilotkit-setup-slack-channel/SKILL.md"
+      },
+      {
         "id": "diagnosing-superpowers",
         "path": "skills/diagnosing-superpowers/SKILL.md"
       },
