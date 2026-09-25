@@ -363,6 +363,18 @@ Superpowers is built by [Jesse Vincent](https://blog.fsck.com) and the rest of t
 - **writing-skills** - Create new skills following best practices (includes testing methodology)
 - **using-superpowers** - Introduction to the skills system
 
+### Incorporated Skills
+
+This fork also bundles 11 skills incorporated from other open-source projects. They sit in `skills/` next to the core skills, so every harness above discovers them the same way, and each name starts with its source project:
+
+| Prefix | Source | Skills | Covers |
+|---|---|---:|---|
+| `autogpt-` | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 11 | PR lifecycle (open, review, address comments, polish to merge-ready, E2E test), agent-fleet orchestration with tmux, worktree and repo setup, frontend tests, Vercel's React/Next.js performance rules, and Anthropic's Playwright webapp-testing skill |
+
+The [incorporated skills catalog](docs/incorporated-skills/README.md) lists every skill with its upstream path, commit, and license, and records the few edits made while importing.
+
+**Skill listing budget:** Claude Code shows the model a listing of every skill's name and description, capped at 1% of the context window. With this many skills installed, the listing overflows and Claude Code drops descriptions from the skills you invoke least (names always stay), so those skills trigger less reliably. Run `/doctor` to see the listing's cost. To make room, raise `skillListingBudgetFraction` (for example `0.02`) or set `SLASH_COMMAND_TOOL_CHAR_BUDGET`, or set skills you don't need to `"name-only"` or `"off"` in `skillOverrides`. See [Claude Code's skills docs](https://code.claude.com/docs/en/skills).
+
 ## Philosophy
 
 - **Test-Driven Development** - Write tests first, always

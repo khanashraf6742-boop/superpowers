@@ -11,6 +11,50 @@
   "capabilities": {
     "skills": [
       {
+        "id": "autogpt-open-pr",
+        "path": "skills/autogpt-open-pr/SKILL.md"
+      },
+      {
+        "id": "autogpt-orchestrate",
+        "path": "skills/autogpt-orchestrate/SKILL.md"
+      },
+      {
+        "id": "autogpt-pr-address",
+        "path": "skills/autogpt-pr-address/SKILL.md"
+      },
+      {
+        "id": "autogpt-pr-polish",
+        "path": "skills/autogpt-pr-polish/SKILL.md"
+      },
+      {
+        "id": "autogpt-pr-review",
+        "path": "skills/autogpt-pr-review/SKILL.md"
+      },
+      {
+        "id": "autogpt-pr-test",
+        "path": "skills/autogpt-pr-test/SKILL.md"
+      },
+      {
+        "id": "autogpt-setup-repo",
+        "path": "skills/autogpt-setup-repo/SKILL.md"
+      },
+      {
+        "id": "autogpt-vercel-react-best-practices",
+        "path": "skills/autogpt-vercel-react-best-practices/SKILL.md"
+      },
+      {
+        "id": "autogpt-webapp-testing",
+        "path": "skills/autogpt-webapp-testing/SKILL.md"
+      },
+      {
+        "id": "autogpt-worktree",
+        "path": "skills/autogpt-worktree/SKILL.md"
+      },
+      {
+        "id": "autogpt-write-frontend-tests",
+        "path": "skills/autogpt-write-frontend-tests/SKILL.md"
+      },
+      {
         "id": "brainstorming",
         "path": "skills/brainstorming/SKILL.md"
       },
