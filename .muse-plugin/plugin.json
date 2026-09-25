@@ -11,6 +11,58 @@
   "capabilities": {
     "skills": [
       {
+        "id": "anythingllm-create-chart",
+        "path": "skills/anythingllm-create-chart/SKILL.md"
+      },
+      {
+        "id": "anythingllm-create-files-agent",
+        "path": "skills/anythingllm-create-files-agent/SKILL.md"
+      },
+      {
+        "id": "anythingllm-create-scheduled-job",
+        "path": "skills/anythingllm-create-scheduled-job/SKILL.md"
+      },
+      {
+        "id": "anythingllm-document-summarizer",
+        "path": "skills/anythingllm-document-summarizer/SKILL.md"
+      },
+      {
+        "id": "anythingllm-filesystem-agent",
+        "path": "skills/anythingllm-filesystem-agent/SKILL.md"
+      },
+      {
+        "id": "anythingllm-generate-image",
+        "path": "skills/anythingllm-generate-image/SKILL.md"
+      },
+      {
+        "id": "anythingllm-gmail-agent",
+        "path": "skills/anythingllm-gmail-agent/SKILL.md"
+      },
+      {
+        "id": "anythingllm-google-calendar-agent",
+        "path": "skills/anythingllm-google-calendar-agent/SKILL.md"
+      },
+      {
+        "id": "anythingllm-outlook-agent",
+        "path": "skills/anythingllm-outlook-agent/SKILL.md"
+      },
+      {
+        "id": "anythingllm-rag-memory",
+        "path": "skills/anythingllm-rag-memory/SKILL.md"
+      },
+      {
+        "id": "anythingllm-sql-agent",
+        "path": "skills/anythingllm-sql-agent/SKILL.md"
+      },
+      {
+        "id": "anythingllm-web-browsing",
+        "path": "skills/anythingllm-web-browsing/SKILL.md"
+      },
+      {
+        "id": "anythingllm-web-scraping",
+        "path": "skills/anythingllm-web-scraping/SKILL.md"
+      },
+      {
         "id": "autogpt-open-pr",
         "path": "skills/autogpt-open-pr/SKILL.md"
       },

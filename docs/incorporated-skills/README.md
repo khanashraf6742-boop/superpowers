@@ -1,6 +1,6 @@
 # Incorporated skills
 
-Besides its core skills, this fork of Superpowers bundles 303 skills incorporated from other open-source projects. They live in `skills/` exactly like the core skills, so Claude Code, Codex, Cursor, Gemini, OpenCode, Pi, Kimi, Hermes, Muse and the other supported harnesses discover them the same way.
+Besides its core skills, this fork of Superpowers bundles 316 skills incorporated from other open-source projects. They live in `skills/` exactly like the core skills, so Claude Code, Codex, Cursor, Gemini, OpenCode, Pi, Kimi, Hermes, Muse and the other supported harnesses discover them the same way.
 
 ## Conventions
 
@@ -17,6 +17,7 @@ Besides its core skills, this fork of Superpowers bundles 303 skills incorporate
 | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | `autogpt-` | [khanashraf6742-boop/AutoGPT@45275cb](https://github.com/khanashraf6742-boop/AutoGPT/tree/45275cbb0bb36aa9aadfd2688de94daab3a8456e) | 11 | [AutoGPT-LICENSE](licenses/AutoGPT-LICENSE) |
 | [langgenius/dify](https://github.com/langgenius/dify) | `dify-` | [khanashraf6742-boop/dify@e43ea09](https://github.com/khanashraf6742-boop/dify/tree/e43ea0986e9b4dbd1bba0dc917532a179e5604fe) | 5 | [dify-LICENSE](licenses/dify-LICENSE) |
 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | `ruflo-` | [khanashraf6742-boop/ruflo@025842b](https://github.com/khanashraf6742-boop/ruflo/tree/025842bb0f860a908b286846c701e156c7f3f739) | 287 | [ruflo-LICENSE](licenses/ruflo-LICENSE) |
+| [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) | `anythingllm-` | [khanashraf6742-boop/anything-llm@ad97bc8](https://github.com/khanashraf6742-boop/anything-llm/tree/ad97bc8dfcb6919f34f7d6d0c722efdda64d66d9) | 13 | [anything-llm-LICENSE](licenses/anything-llm-LICENSE) |
 
 ## AutoGPT
 
@@ -367,3 +368,29 @@ The ruflo/claude-flow toolkit: swarm and hive-mind orchestration, SPARC, AgentDB
 | `ruflo-workflow-automation` | [`.agents/skills/workflow-automation`](https://github.com/khanashraf6742-boop/ruflo/tree/025842bb0f860a908b286846c701e156c7f3f739/.agents/skills/workflow-automation) | Workflow creation, execution, and template management. Automates complex multi-step processes with agent coordination. Use when: automating… |
 | `ruflo-workflow-create` | [`plugins/ruflo-workflows/skills/workflow-create`](https://github.com/khanashraf6742-boop/ruflo/tree/025842bb0f860a908b286846c701e156c7f3f739/plugins/ruflo-workflows/skills/workflow-create) | Author a workflow — either an MCP workflow template (persisted, lifecycle) or a native .claude/workflows/*.js orchestration script… |
 | `ruflo-workflow-run` | [`plugins/ruflo-workflows/skills/workflow-run`](https://github.com/khanashraf6742-boop/ruflo/tree/025842bb0f860a908b286846c701e156c7f3f739/plugins/ruflo-workflows/skills/workflow-run) | Run a workflow — drive an MCP workflow lifecycle (execute/pause/resume/cancel) or invoke + resume a native .claude/workflows/*.js orchestration via… |
+
+## anything-llm
+
+AnythingLLM's built-in agent skills (document memory and summarising, web search and scraping, charts, image generation, SQL, file-system access, document creation, scheduled jobs, Gmail, Google Calendar, Outlook) adapted as instructions for a coding agent's own tools.
+
+**License:** MIT, Copyright (c) Mintplex Labs Inc.
+
+- AnythingLLM does not ship `SKILL.md` files: its agent skills are server-side tool plugins in `server/utils/agents/aibitat/plugins/`. Each of the 13 skills listed in AnythingLLM's agent-skill settings became a `SKILL.md` built from that plugin's source: its tool descriptions, parameters, limits, and safety rules. Steps that AnythingLLM runs on its own server are mapped to the tools the agent already has.
+- These are adaptations, not copies; each skill's provenance comment names the plugin it was built from.
+- Not converted: plugins that are agent infrastructure rather than skills (`chat-history`, `cli`, `http-socket`, `websocket`, `file-history`, `model-router-cooldown`, `router-classifier`), and `request-user-input`, which backs AnythingLLM's clarifying-questions setting and is not listed among its agent skills.
+
+| Skill | Upstream path | Description |
+|---|---|---|
+| `anythingllm-create-chart` | [`server/utils/agents/aibitat/plugins/rechart.js`](https://github.com/khanashraf6742-boop/anything-llm/blob/ad97bc8dfcb6919f34f7d6d0c722efdda64d66d9/server/utils/agents/aibitat/plugins/rechart.js) | Use when asked to chart, graph, plot, or otherwise visualize numbers, statistics, trends, or results |
+| `anythingllm-create-files-agent` | [`server/utils/agents/aibitat/plugins/create-files`](https://github.com/khanashraf6742-boop/anything-llm/tree/ad97bc8dfcb6919f34f7d6d0c722efdda64d66d9/server/utils/agents/aibitat/plugins/create-files) | Use when asked to produce a Word document, PDF, PowerPoint presentation, Excel spreadsheet, or other file for the user to download or keep |
+| `anythingllm-create-scheduled-job` | [`server/utils/agents/aibitat/plugins/create-scheduled-job`](https://github.com/khanashraf6742-boop/anything-llm/tree/ad97bc8dfcb6919f34f7d6d0c722efdda64d66d9/server/utils/agents/aibitat/plugins/create-scheduled-job) | Use when asked to run a task automatically on a recurring schedule, such as every weekday at 9am |
+| `anythingllm-document-summarizer` | [`server/utils/agents/aibitat/plugins/summarize.js`](https://github.com/khanashraf6742-boop/anything-llm/blob/ad97bc8dfcb6919f34f7d6d0c722efdda64d66d9/server/utils/agents/aibitat/plugins/summarize.js) | Use when asked which documents are available, or to summarize, condense, or pull the key points out of a document, especially one too long to read in… |
+| `anythingllm-filesystem-agent` | [`server/utils/agents/aibitat/plugins/filesystem`](https://github.com/khanashraf6742-boop/anything-llm/tree/ad97bc8dfcb6919f34f7d6d0c722efdda64d66d9/server/utils/agents/aibitat/plugins/filesystem) | Use when asked to manage files inside a designated folder (finding, reading, organizing, copying, moving, or inspecting files and directories)… |
+| `anythingllm-generate-image` | [`server/utils/agents/aibitat/plugins/generate-image.js`](https://github.com/khanashraf6742-boop/anything-llm/blob/ad97bc8dfcb6919f34f7d6d0c722efdda64d66d9/server/utils/agents/aibitat/plugins/generate-image.js) | Use when asked to draw, create, render, or modify a picture or image |
+| `anythingllm-gmail-agent` | [`server/utils/agents/aibitat/plugins/gmail`](https://github.com/khanashraf6742-boop/anything-llm/tree/ad97bc8dfcb6919f34f7d6d0c722efdda64d66d9/server/utils/agents/aibitat/plugins/gmail) | Use when asked to search, read, draft, send, or organize email in Gmail |
+| `anythingllm-google-calendar-agent` | [`server/utils/agents/aibitat/plugins/google-calendar`](https://github.com/khanashraf6742-boop/anything-llm/tree/ad97bc8dfcb6919f34f7d6d0c722efdda64d66d9/server/utils/agents/aibitat/plugins/google-calendar) | Use when asked what's on a Google Calendar, or to create, change, or respond to calendar events |
+| `anythingllm-outlook-agent` | [`server/utils/agents/aibitat/plugins/outlook`](https://github.com/khanashraf6742-boop/anything-llm/tree/ad97bc8dfcb6919f34f7d6d0c722efdda64d66d9/server/utils/agents/aibitat/plugins/outlook) | Use when asked to search, read, draft, send, or organize email in Microsoft Outlook |
+| `anythingllm-rag-memory` | [`server/utils/agents/aibitat/plugins/memory.js`](https://github.com/khanashraf6742-boop/anything-llm/blob/ad97bc8dfcb6919f34f7d6d0c722efdda64d66d9/server/utils/agents/aibitat/plugins/memory.js) | Use when the user asks you to remember something for later, or asks a question that their own documents, uploaded files, or saved notes may answer |
+| `anythingllm-sql-agent` | [`server/utils/agents/aibitat/plugins/sql-agent`](https://github.com/khanashraf6742-boop/anything-llm/tree/ad97bc8dfcb6919f34f7d6d0c722efdda64d66d9/server/utils/agents/aibitat/plugins/sql-agent) | Use when a question has to be answered from data in a SQL database, such as PostgreSQL, MySQL, or SQL Server |
+| `anythingllm-web-browsing` | [`server/utils/agents/aibitat/plugins/web-browsing.js`](https://github.com/khanashraf6742-boop/anything-llm/blob/ad97bc8dfcb6919f34f7d6d0c722efdda64d66d9/server/utils/agents/aibitat/plugins/web-browsing.js) | Use when a question needs current or outside information, such as news, recent releases or changes, prices, weather, or live data, that isn't… |
+| `anythingllm-web-scraping` | [`server/utils/agents/aibitat/plugins/web-scraping.js`](https://github.com/khanashraf6742-boop/anything-llm/blob/ad97bc8dfcb6919f34f7d6d0c722efdda64d66d9/server/utils/agents/aibitat/plugins/web-scraping.js) | Use when given a specific web address to read, or asked what a particular page or link says |
